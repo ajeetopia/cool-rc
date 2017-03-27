@@ -1,0 +1,12 @@
+# screen config file
+# term xterm-256color
+startup_message off
+defflow on
+defbce on
+altscreen on
+vbell off
+defscrollback 50000
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{-b ck}%?%-Lw%?%{bg}%n*%f %t%?(%u)%?%{wk}%?%+Lw%? %= %{r} %H %{g} %D %d/%m/%Y %0c"
+termcapinfo xterm* 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
